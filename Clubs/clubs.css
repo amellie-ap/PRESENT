@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+/* Imports the font for my page from google docs */
+
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/03/94/95/16/360_F_394951673_cd1x3b0YwOJRmdjJLHLSFuPQmIohQYOs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Macondo', cursive;
+}
+/* Configurations for the image and makes it so that it doesn't repeat and doesn't move weirdly with the page */
+
+.navigation {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    overflow: hidden;
+    border-style: solid;
+    align-content: center;
+    height: 50px;
+    display: flex;
+    margin-top: 13vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  /* Style for the navigation bar that puts it on the set position and handles how they are spaced */
+  
+  .navigation a {
+    background-color: #f0e8a2;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  /* Style for the hyperlinks  */
+
+  .content {
+    background: rgba(0, 0, 0, 0.8);
+      height: auto;
+      border-width: 5px;
+      border-color: rgb(0, 0, 0);
+      border-style: double;
+      text-align: center;
+      margin-bottom: 13vh;
+      text-align: center;
+      font-size: 8vh;
+      float: left;
+      flex-shrink: 0;
+      width: 100%;
+      flex-wrap: wrap;
+      color: white;
+      margin-top: 100px;
+    }
+    /* Sets all the style for the content within the content div */
+
+    ol.c {
+        list-style-type: none;
+        margin-top: 10vh;
+        font-size: 6vh;
+      }
+    /* The style for the content withing the list c */
+      
+      #iclubs {
+        float: right;
+        margin-bottom: 100px;
+        margin-right: 30px;
+      }
+      /* Styling for the image in the club page */
+      
